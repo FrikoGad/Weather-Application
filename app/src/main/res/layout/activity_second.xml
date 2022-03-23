@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_main"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_city_name"
+        style="@style/TextViewHighStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        style="@style/TextViewTemperatureStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/temperature"
+        app:layout_constraintHorizontal_bias="0.164"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_city_name" />
+
+    <TextView
+        android:id="@+id/tv_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_humidity"
+        android:textSize="@dimen/text_size_common"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/weathers_parameters_margin_top"
+        app:layout_constraintTop_toBottomOf="@+id/tv_temperature"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_pressure"
+        android:textSize="@dimen/text_size_common"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/weathers_parameters_margin_top"
+        app:layout_constraintTop_toBottomOf="@+id/tv_humidity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_speed_of_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_speed_of_wind"
+        android:textSize="@dimen/text_size_common"
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/weathers_parameters_margin_top"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pressure"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+    
+    <ImageView
+        android:id="@+id/iv_weather_now"
+        android:layout_width="110dp"
+        android:layout_height="82dp"
+        android:src="@mipmap/sun"
+        android:layout_marginTop="@dimen/temperature_margin_top"
+        app:layout_constraintHorizontal_bias="0.800"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_city_name"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

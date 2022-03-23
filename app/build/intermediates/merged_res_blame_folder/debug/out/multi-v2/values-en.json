@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\FrikoGad\\AndroidStudioProjects\\Weatherapplication2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\FrikoGad\\AndroidStudioProjects\\Weatherapplication2\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,15,16,5,18,17,6,7,8,14,13,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,561,602,144,743,659,210,257,304,509,464,361",
+                        "endColumns": "57,39,55,64,58,82,45,45,55,50,43,69",
+                        "endOffsets": "110,596,653,204,797,737,251,298,355,555,503,426"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,153,209,274,333,416,462,508,564,609,653",
+                        "endColumns": "57,39,55,64,58,82,45,45,55,44,43,69",
+                        "endOffsets": "108,148,204,269,328,411,457,503,559,604,648,718"
+                    }
+                }
+            ]
+        }
+    ]
+}

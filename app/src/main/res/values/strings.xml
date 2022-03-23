@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Weather application2</string>
+
+    <!-- MainActivity-->
+    <string name="city_name">Введите название города</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="speed_of_wind">Скорость ветра</string>
+    <string name="weather_today">Узнать погоду на сегодня</string>
+
+
+    <!-- SecondActivity-->
+    <string name="weather">Погода</string>
+    <string name="temperature">+25&#8451;</string>
+    <string name="city">Москва</string>
+    <string name="city_humidity">Влажность: 25%</string>
+    <string name="city_speed_of_wind">Скорость ветра: 12 M/C</string>
+    <string name="city_pressure">Давление: 720 mm</string>
+</resources>

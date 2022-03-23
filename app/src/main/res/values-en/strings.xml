@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather application2</string>
+
+    <!-- MainActivity-->
+    <string name="city_name">Enter the name of the city</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="speed_of_wind">Speed of wind</string>
+    <string name="weather_today">Check the weather for today</string>
+
+
+    <!-- SecondActivity-->
+    <string name="weather">Weather</string>
+    <string name="temperature">+25&#8451;</string>
+    <string name="city">Moscow</string>
+    <string name="city_humidity">Humidity: 25%</string>
+    <string name="city_speed_of_wind">Speed of wind: 12 meters per second</string>
+    <string name="city_pressure">Pressure: 720 mm</string>
+</resources>

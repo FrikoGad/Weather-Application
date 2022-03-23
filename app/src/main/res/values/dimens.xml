@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_common">20sp</dimen>
+    <dimen name="margin_top_high">40sp</dimen>
+    <dimen name="search_margin_top">60sp</dimen>
+    <dimen name="button_margin_top">10sp</dimen>
+    <dimen name="text_size_temperature">60sp</dimen>
+    <dimen name="text_size_high">40sp</dimen>
+    <dimen name="weathers_parameters_margin_top">15sp</dimen>
+    <dimen name="temperature_margin_top">30dp</dimen>
+</resources>
